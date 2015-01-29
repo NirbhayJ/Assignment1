@@ -1,3 +1,59 @@
-﻿Public Class index
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>TTA3</title>
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/reset.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="impress">
+        <!-- Slide 1 - Starting Point-->
+        <div id="intro" class="step slide">
+            <div class="slide-text">
+                <h1> Game Begins</h1>
+                <p>To Start the game you have to select the characters from the following selection,</p>
+                <p>four charcters known as ARCHER, WORRIER, MAGE, HOLLYKIGHT</p>
+                <br />
+                <p>Which character you like</p>
+                <p><a href="#archer">ARCHER</a></p>
+                <p>or</p>
+                <p><a href="#worrier">WORRIER</a></p>
+            </div>
+        </div>
 
-End Class
+
+        <!-- Slide 2 - archer selection -->
+        <div id="archer" class="step slide" data-x="-1600">
+            <div class="slide-text">
+                <p>You selected ARCHER</p>
+                <p>Fight begins with worrier</p>
+                <br />
+                <p>fight begains</p>
+                <p>select the type of fight</p>
+                <p><a href="#worrier">WORRIER</a></p>
+                <p>or</p>
+                <p><a href="#mage">MAGE</a></p>
+            </div>
+        </div>
+
+        <!-- Slide 3 - -->
+        <div id="power" class="step slide" data-y="2500" data-x="7500">
+            <div class="slide-text">
+                <p>You selected the power. </p>
+                <p>Your apponent is Worrier</p>
+                <br />
+                <p>Fight begains</p>
+                <p><a href="#">FIGHT</a></p>
+                <p>or</p>
+                <p><a href="#ran">RAN</a></p>
+            </div>
+        </div>
+
+    <!-- JavaScript Section -->
+    <script src="js/impress.js"></script>
+    <script>impress().init();</script>
+
+</body>
+</html>
