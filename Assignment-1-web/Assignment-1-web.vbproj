@@ -78,7 +78,6 @@
   <ItemGroup>
     <Folder Include="assets\Audio\" />
     <Folder Include="assets\images\" />
-    <Folder Include="Scripts\lib\" />
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
@@ -106,10 +105,11 @@
   <ItemGroup>
     <Content Include="App_Readme\Spring.Rest.txt" />
     <Content Include="App_Readme\Spring.Social.Core.txt" />
-    <Content Include="css\game.css" />
+    <Content Include="css\main.css" />
+    <Content Include="css\reset.css" />
     <Content Include="index.html" />
     <Content Include="NuGet\NuGetPackage.txt" />
-    <Content Include="Scripts\game.js" />
+    <Content Include="Scripts\impress.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

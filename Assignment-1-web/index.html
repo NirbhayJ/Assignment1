@@ -1,59 +1,105 @@
-﻿
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>TTA3</title>
-    <link href="css/main.css" rel="stylesheet" />
+    <title>The Dragon!</title>
     <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
 </head>
 <body>
     <div id="impress">
-        <!-- Slide 1 - Starting Point-->
         <div id="intro" class="step slide">
             <div class="slide-text">
-                <h1> Game Begins</h1>
-                <p>To Start the game you have to select the characters from the following selection,</p>
-                <p>four charcters known as ARCHER, WORRIER, MAGE, HOLLYKIGHT</p>
+                <p>you are in a car which breaks are fail</p>
+                <p>you have only two option</p>
+                <p>you can jump from the car or try to stop the car</p>
+                <p>either you will die or survive</p>
                 <br />
-                <p>Which character you like</p>
-                <p><a href="#archer">ARCHER</a></p>
+                <p>Which option you will select</p>
+                <p><a href="#jump">JUMP</a></p>
                 <p>or</p>
-                <p><a href="#worrier">WORRIER</a></p>
+                <p><a href="#drive">DRIVE</a></p>
             </div>
         </div>
 
-
-        <!-- Slide 2 - archer selection -->
-        <div id="archer" class="step slide" data-x="-1600">
+        <div id="jump" class="step slide" data-x="-1500">
             <div class="slide-text">
-                <p>You selected ARCHER</p>
-                <p>Fight begins with worrier</p>
+                <p>You approach the jump, out of the car.</p>
+                <p>either you will be on road with small scrach or the other car will bump you</p>
+                <p>select the safe loaction to jump or jump any where</p>
                 <br />
-                <p>fight begains</p>
-                <p>select the type of fight</p>
-                <p><a href="#worrier">WORRIER</a></p>
+                <p><a href="#safe">SAFE JUMP</a></p>
                 <p>or</p>
-                <p><a href="#mage">MAGE</a></p>
+                <p><a href="#anywhere">ANY WHERE</a></p>
+            </div>
+            <div class="menu">
+                <a href="#intro">Get In Car Again</a>
             </div>
         </div>
 
-        <!-- Slide 3 - -->
-        <div id="power" class="step slide" data-y="2500" data-x="7500">
+        <div id="drive" class="step slide" data-x="7500">
             <div class="slide-text">
-                <p>You selected the power. </p>
-                <p>Your apponent is Worrier</p>
+                <p>you selected to drive</p>
+                <p>either you will be bump any where or you can stop the car</p>
+                <p>select the option to bump the car or safe stop</p>
                 <br />
-                <p>Fight begains</p>
-                <p><a href="#">FIGHT</a></p>
+                <p><a href="#bump">BUMP</a></p>
                 <p>or</p>
-                <p><a href="#ran">RAN</a></p>
+                <p><a href="#safestop">SAFESTOP</a></p>
+            </div>
+            <div class="menu">
+                <a href="#intro">End The Game</a>
+            </div>
+        </div>
+       
+        <div id="safe" class="step slide" data-x="3200">
+            <div class="slide-text">
+                <p>You approach the safe jump, out of the car.</p>
+                <p>you jumped safely but the rock on rod bang on your hed and you died</p>
+                <p>GAme over</p>
+             </div>
+            <div class="menu">
+                <a href="#intro">Get In Car Again</a>
+            </div>
+        </div>
+
+        <div id="anywhere" class="step slide" data-x="-3300">
+            <div class="slide-text">
+                <p>You approach to jump anywhere, out of the car.</p>
+                <p>you jumped in front of another car and you died</p>
+                <p>Game over</p>
+            </div>
+            <div class="menu">
+                <a href="#intro">Get In Car Again</a>
+            </div>
+        </div>
+
+        <div id="safestop" class="step slide" data-x="3300">
+            <div class="slide-text">
+                <p>You approach to safe stop, but if the break are fail their is 10% of chance that you can stop</p>
+                <p>you choose the last option and you died</p>
+                <p>Game over</p>
+            </div>
+            <div class="menu">
+                <a href="#intro">Get In Car Again</a>
+            </div>
+        </div>
+
+        <div id="bump" class="step slide" data-x="4500">
+            <div class="slide-text">
+                <p>You approach to bang or bump somewhere, that help you to survive</p>
+                <p>the air bags save you else you got minor injuries</p>
+                <p>you are the safe driver well done</p>
+            </div>
+            <div class="menu">
+                <a href="#intro">Get In Car Again to die</a>
             </div>
         </div>
 
     <!-- JavaScript Section -->
-    <script src="js/impress.js"></script>
+    <script src="Scripts/impress.js"></script>
     <script>impress().init();</script>
 
 </body>
 </html>
+
